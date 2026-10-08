@@ -1,4 +1,4 @@
 import {printSnacks} from "./snacks";
 
-printSnacks()
+printSnacks();
 
