@@ -1,8 +1,8 @@
-const snacks = ["banana", "gummies", "pretzels"];
+const snacks = ["banana", "gummies", "pretzels", "Twix", "Gummy Bears", "Shrimp Chips"];
 
 
-function print_snacks(){
+export function printSnacks() {
     console.log(snacks);
 }
 
-print_snacks();
+printSnacks();
