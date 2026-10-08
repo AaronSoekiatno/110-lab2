@@ -1,8 +1,7 @@
+import { boltalics } from "./animation";
 const snacks = ["banana", "gummies", "pretzels", "Twix", "Gummy Bears", "Shrimp Chips"];
 
 
 export function printSnacks() {
-    console.log(snacks);
+    boltalics(snacks);
 }
-
-printSnacks();
